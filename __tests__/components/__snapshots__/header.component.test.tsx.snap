@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Header component matches snapshot and renders nav 1`] = `
+<DocumentFragment>
+  <header
+    class="fixed top-0 w-full backdrop-blur-md bg-white/70 shadow-sm z-50"
+  >
+    <nav
+      class="flex justify-between items-center px-6 py-4 max-w-6xl mx-auto"
+    >
+      <img
+        alt="PAYNOVEX Logo"
+        class="h-8"
+        src="/paynovex-logo.png"
+      />
+      <div
+        class="hidden md:flex gap-6 text-sm font-medium"
+      >
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#services"
+        >
+          Services
+        </a>
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#apis"
+        >
+          APIs
+        </a>
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#solutions"
+        >
+          Solutions
+        </a>
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#pricing"
+        >
+          Pricing
+        </a>
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#company"
+        >
+          Company
+        </a>
+        <a
+          class="hover:text-[#0B5FFF]"
+          href="#contact"
+        >
+          Contact
+        </a>
+      </div>
+      <div
+        class="flex gap-3"
+      >
+        <button
+          class="px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+        >
+          Get Started
+        </button>
+        <button
+          class="px-4 py-2 border border-[#0B5FFF] text-[#0B5FFF] rounded-md"
+        >
+          Request Demo
+        </button>
+      </div>
+    </nav>
+  </header>
+</DocumentFragment>
+`;
