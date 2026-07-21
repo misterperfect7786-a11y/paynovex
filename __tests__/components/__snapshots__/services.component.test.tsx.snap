@@ -3,111 +3,129 @@
 exports[`Services component renders and matches snapshot 1`] = `
 <DocumentFragment>
   <section
-    class="py-20 bg-white"
+    aria-labelledby="services-heading"
+    class="bg-slate-950 py-20 text-white"
     id="services"
   >
     <div
-      class="max-w-6xl mx-auto px-6"
+      class="mx-auto max-w-6xl px-6"
     >
-      <h2
-        class="text-3xl font-bold text-[#082567]"
-      >
-        Enterprise Services
-      </h2>
       <div
-        class="mt-8 grid md:grid-cols-3 gap-6"
+        class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
+      >
+        <div>
+          <p
+            class="text-sm uppercase tracking-[0.28em] text-sky-300/80"
+          >
+            Modern fintech services
+          </p>
+          <h2
+            class="mt-3 text-3xl font-bold"
+            id="services-heading"
+          >
+            Enterprise Services
+          </h2>
+        </div>
+        <p
+          class="max-w-xl text-sm text-slate-300 md:text-right"
+        >
+          Build secure, scalable payment flows for recharge, travel, banking, and partner networks.
+        </p>
+      </div>
+      <div
+        class="mt-10 grid gap-6 md:grid-cols-3"
       >
         <div
-          class="p-6 border rounded-lg shadow-sm"
+          class="group rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:-translate-y-1 hover:border-sky-400/40 hover:bg-white/10"
         >
           <h3
-            class="font-semibold"
+            class="text-xl font-semibold text-white"
           >
             Recharge Services
           </h3>
           <p
-            class="text-sm mt-2"
+            class="mt-4 text-sm text-slate-300"
           >
             Explore secure, scalable recharge services for enterprise clients.
           </p>
           <button
-            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+            class="mt-6 inline-flex rounded-full border border-slate-400/20 bg-white/5 px-5 py-3 text-sm text-white transition group-hover:border-sky-300/50 group-hover:bg-sky-300/10"
           >
             Explore Solution
           </button>
         </div>
         <div
-          class="p-6 border rounded-lg shadow-sm"
+          class="group rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:-translate-y-1 hover:border-sky-400/40 hover:bg-white/10"
         >
           <h3
-            class="font-semibold"
+            class="text-xl font-semibold text-white"
           >
             Banking Services
           </h3>
           <p
-            class="text-sm mt-2"
+            class="mt-4 text-sm text-slate-300"
           >
             Explore secure, scalable banking services for enterprise clients.
           </p>
           <button
-            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+            class="mt-6 inline-flex rounded-full border border-slate-400/20 bg-white/5 px-5 py-3 text-sm text-white transition group-hover:border-sky-300/50 group-hover:bg-sky-300/10"
           >
             Explore Solution
           </button>
         </div>
         <div
-          class="p-6 border rounded-lg shadow-sm"
+          class="group rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:-translate-y-1 hover:border-sky-400/40 hover:bg-white/10"
         >
           <h3
-            class="font-semibold"
+            class="text-xl font-semibold text-white"
           >
             Payment Solutions
           </h3>
           <p
-            class="text-sm mt-2"
+            class="mt-4 text-sm text-slate-300"
           >
             Explore secure, scalable payment solutions for enterprise clients.
           </p>
           <button
-            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+            class="mt-6 inline-flex rounded-full border border-slate-400/20 bg-white/5 px-5 py-3 text-sm text-white transition group-hover:border-sky-300/50 group-hover:bg-sky-300/10"
           >
             Explore Solution
           </button>
         </div>
         <div
-          class="p-6 border rounded-lg shadow-sm"
+          class="group rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:-translate-y-1 hover:border-sky-400/40 hover:bg-white/10"
         >
           <h3
-            class="font-semibold"
+            class="text-xl font-semibold text-white"
           >
             Travel Services
           </h3>
           <p
-            class="text-sm mt-2"
+            class="mt-4 text-sm text-slate-300"
           >
             Explore secure, scalable travel services for enterprise clients.
           </p>
           <button
-            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+            class="mt-6 inline-flex rounded-full border border-slate-400/20 bg-white/5 px-5 py-3 text-sm text-white transition group-hover:border-sky-300/50 group-hover:bg-sky-300/10"
           >
             Explore Solution
           </button>
         </div>
         <div
-          class="p-6 border rounded-lg shadow-sm"
+          class="group rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:-translate-y-1 hover:border-sky-400/40 hover:bg-white/10"
         >
           <h3
-            class="font-semibold"
+            class="text-xl font-semibold text-white"
           >
             Software Development
           </h3>
           <p
-            class="text-sm mt-2"
+            class="mt-4 text-sm text-slate-300"
           >
             Explore secure, scalable software development for enterprise clients.
           </p>
           <button
-            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+            class="mt-6 inline-flex rounded-full border border-slate-400/20 bg-white/5 px-5 py-3 text-sm text-white transition group-hover:border-sky-300/50 group-hover:bg-sky-300/10"
           >
             Explore Solution
           </button>

@@ -25,8 +25,6 @@ const config: Config = {
       lines: 70,
       statements: 70,
     },
-  },
-  coverageThreshold: {
     "components/*": {
       branches: 60,
       functions: 60,
