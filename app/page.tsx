@@ -10,7 +10,7 @@ import SolutionCards from "../components/SolutionCards";
 
 export default function Home() {
   return (
-    <>
+    <div id="top">
       <Header />
 
       <Hero />
@@ -90,6 +90,6 @@ export default function Home() {
 
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }

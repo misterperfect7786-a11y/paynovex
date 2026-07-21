@@ -8,11 +8,16 @@ exports[`Header component matches snapshot and renders nav 1`] = `
     <nav
       class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
     >
-      <img
-        alt="PAYNOVEX Logo"
-        class="h-8"
-        src="/paynovex-logo.png"
-      />
+      <a
+        class="flex items-center"
+        href="#top"
+      >
+        <img
+          alt="PAYNOVEX Logo"
+          class="h-8"
+          src="/paynovex-logo.png"
+        />
+      </a>
       <div
         class="hidden gap-6 text-sm font-medium md:flex"
       >
@@ -56,17 +61,20 @@ exports[`Header component matches snapshot and renders nav 1`] = `
       <div
         class="flex items-center gap-3"
       >
-        <button
+        <a
           class="hidden rounded-md bg-[#0B5FFF] px-4 py-2 text-white md:inline-flex"
+          href="#contact"
         >
           Get Started
-        </button>
-        <button
+        </a>
+        <a
           class="hidden rounded-md border border-[#0B5FFF] px-4 py-2 text-[#0B5FFF] md:inline-flex"
+          href="#contact"
         >
           Request Demo
-        </button>
+        </a>
         <button
+          aria-expanded="false"
           aria-label="Toggle navigation menu"
           class="inline-flex rounded-md border border-slate-200 bg-white/90 p-2 text-slate-900 shadow-sm transition hover:bg-white md:hidden"
         >
@@ -149,16 +157,18 @@ exports[`Header component matches snapshot and renders nav 1`] = `
         <div
           class="grid gap-3 pt-3"
         >
-          <button
-            class="w-full rounded-2xl bg-[#0B5FFF] px-4 py-3 text-sm font-semibold text-white"
+          <a
+            class="w-full rounded-2xl bg-[#0B5FFF] px-4 py-3 text-center text-sm font-semibold text-white"
+            href="#contact"
           >
             Get Started
-          </button>
-          <button
-            class="w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900"
+          </a>
+          <a
+            class="w-full rounded-2xl border border-slate-200 px-4 py-3 text-center text-sm font-semibold text-slate-900"
+            href="#contact"
           >
             Request Demo
-          </button>
+          </a>
         </div>
       </div>
     </div>
