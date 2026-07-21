@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Contact component renders CTAs and matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="py-20 bg-[#082567] text-white"
+    id="contact"
+  >
+    <div
+      class="max-w-6xl mx-auto px-6 text-center"
+    >
+      <h2
+        class="text-3xl font-bold"
+      >
+        Ready to power your next payment experience?
+      </h2>
+      <p
+        class="mt-4"
+      >
+        Partner with PAYNOVEX to launch faster, scale safer, and grow smarter.
+      </p>
+      <div
+        class="mt-8 flex justify-center gap-4"
+      >
+        <button
+          class="px-6 py-3 bg-white text-[#082567] rounded-md font-semibold"
+        >
+          Book a Call
+        </button>
+        <button
+          class="px-6 py-3 border border-white rounded-md"
+        >
+          Contact Sales
+        </button>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

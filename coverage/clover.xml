@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1784626403204" clover="3.2.0">
+  <project timestamp="1784626403204" name="All files">
+    <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="48" coveredelements="48" complexity="0" loc="36" ncloc="36" packages="2" files="7" classes="7"/>
+    <package name="app">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="page.tsx" path="/workspaces/paynovex/app/page.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="37" count="36" type="stmt"/>
+        <line num="54" count="18" type="stmt"/>
+        <line num="72" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="Apis.tsx" path="/workspaces/paynovex/components/Apis.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+      </file>
+      <file name="Contact.tsx" path="/workspaces/paynovex/components/Contact.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+      </file>
+      <file name="DashboardCards.tsx" path="/workspaces/paynovex/components/DashboardCards.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="/workspaces/paynovex/components/Header.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+      </file>
+      <file name="Hero.tsx" path="/workspaces/paynovex/components/Hero.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="19" count="28" type="stmt"/>
+      </file>
+      <file name="Services.tsx" path="/workspaces/paynovex/components/Services.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="17" count="35" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

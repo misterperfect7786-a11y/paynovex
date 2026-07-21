@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Apis component renders API blocks and matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="py-20 bg-gray-50"
+    id="apis"
+  >
+    <div
+      class="max-w-6xl mx-auto px-6"
+    >
+      <h2
+        class="text-3xl font-bold"
+      >
+        Developer API Platform
+      </h2>
+      <div
+        class="mt-8 grid md:grid-cols-3 gap-6"
+      >
+        <div
+          class="p-6 bg-white rounded shadow"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Recharge API
+          </h3>
+          <pre
+            class="bg-gray-100 p-4 rounded text-xs mt-3 overflow-x-auto"
+          >
+            POST /api/v1/recharge
+{
+  "mobile": "9876543210",
+  "amount": 199,
+  "operator": "Airtel"
+}
+          </pre>
+        </div>
+        <div
+          class="p-6 bg-white rounded shadow"
+        >
+          <h3
+            class="font-semibold"
+          >
+            UPI API
+          </h3>
+          <pre
+            class="bg-gray-100 p-4 rounded text-xs mt-3 overflow-x-auto"
+          >
+            POST /api/v1/upi/collect
+{
+  "vpa": "merchant@upi",
+  "amount": 5000,
+  "currency": "INR"
+}
+          </pre>
+        </div>
+        <div
+          class="p-6 bg-white rounded shadow"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Webhook: Settlement Completed
+          </h3>
+          <pre
+            class="bg-gray-100 p-4 rounded text-xs mt-3 overflow-x-auto"
+          >
+            {
+  "event": "settlement.completed",
+  "amount": "32000000",
+  "currency": "INR",
+  "timestamp": "2026-07-13T03:27:00Z"
+}
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

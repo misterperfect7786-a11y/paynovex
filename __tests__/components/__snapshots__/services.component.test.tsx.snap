@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Services component renders and matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="py-20 bg-white"
+    id="services"
+  >
+    <div
+      class="max-w-6xl mx-auto px-6"
+    >
+      <h2
+        class="text-3xl font-bold text-[#082567]"
+      >
+        Enterprise Services
+      </h2>
+      <div
+        class="mt-8 grid md:grid-cols-3 gap-6"
+      >
+        <div
+          class="p-6 border rounded-lg shadow-sm"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Recharge Services
+          </h3>
+          <p
+            class="text-sm mt-2"
+          >
+            Explore secure, scalable recharge services for enterprise clients.
+          </p>
+          <button
+            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+          >
+            Explore Solution
+          </button>
+        </div>
+        <div
+          class="p-6 border rounded-lg shadow-sm"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Banking Services
+          </h3>
+          <p
+            class="text-sm mt-2"
+          >
+            Explore secure, scalable banking services for enterprise clients.
+          </p>
+          <button
+            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+          >
+            Explore Solution
+          </button>
+        </div>
+        <div
+          class="p-6 border rounded-lg shadow-sm"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Payment Solutions
+          </h3>
+          <p
+            class="text-sm mt-2"
+          >
+            Explore secure, scalable payment solutions for enterprise clients.
+          </p>
+          <button
+            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+          >
+            Explore Solution
+          </button>
+        </div>
+        <div
+          class="p-6 border rounded-lg shadow-sm"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Travel Services
+          </h3>
+          <p
+            class="text-sm mt-2"
+          >
+            Explore secure, scalable travel services for enterprise clients.
+          </p>
+          <button
+            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+          >
+            Explore Solution
+          </button>
+        </div>
+        <div
+          class="p-6 border rounded-lg shadow-sm"
+        >
+          <h3
+            class="font-semibold"
+          >
+            Software Development
+          </h3>
+          <p
+            class="text-sm mt-2"
+          >
+            Explore secure, scalable software development for enterprise clients.
+          </p>
+          <button
+            class="mt-4 px-4 py-2 bg-[#0B5FFF] text-white rounded-md"
+          >
+            Explore Solution
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
