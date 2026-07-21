@@ -49,7 +49,9 @@ export default function Header() {
         </div>
       </nav>
 
-      <div className={`md:hidden ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"} overflow-hidden bg-white/95 transition-all duration-300`}>
+      <div
+        className={`md:hidden ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"} overflow-hidden bg-white/95 transition-all duration-300`}
+      >
         <div className="space-y-4 border-t border-slate-200 px-6 py-5">
           {[
             ["Services", "#services"],
@@ -59,13 +61,21 @@ export default function Header() {
             ["Company", "#company"],
             ["Contact", "#contact"],
           ].map(([label, href]) => (
-            <a key={label} href={href} className="block rounded-2xl px-4 py-3 text-base font-medium text-slate-900 transition hover:bg-slate-100">
+            <a
+              key={label}
+              href={href}
+              className="block rounded-2xl px-4 py-3 text-base font-medium text-slate-900 transition hover:bg-slate-100"
+            >
               {label}
             </a>
           ))}
           <div className="grid gap-3 pt-3">
-            <button className="w-full rounded-2xl bg-[#0B5FFF] px-4 py-3 text-sm font-semibold text-white">Get Started</button>
-            <button className="w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900">Request Demo</button>
+            <button className="w-full rounded-2xl bg-[#0B5FFF] px-4 py-3 text-sm font-semibold text-white">
+              Get Started
+            </button>
+            <button className="w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900">
+              Request Demo
+            </button>
           </div>
         </div>
       </div>

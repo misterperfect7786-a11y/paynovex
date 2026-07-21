@@ -68,7 +68,9 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold">About PAYNOVEX TECHNOLOGIES PRIVATE LIMITED</h2>
           <p className="mt-4 max-w-3xl text-lg">
-            PAYNOVEX TECHNOLOGIES PRIVATE LIMITED is a modern fintech infrastructure company helping India’s businesses launch seamless payments, recharge, travel, API integrations, and enterprise software with confidence.
+            PAYNOVEX TECHNOLOGIES PRIVATE LIMITED is a modern fintech infrastructure company helping
+            India’s businesses launch seamless payments, recharge, travel, API integrations, and
+            enterprise software with confidence.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <div>
@@ -77,7 +79,10 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-semibold">Office</h3>
-              <p className="mt-2 text-sm text-slate-600">Plot No. N6/454, 2nd Floor, Saffire Building, IRC Village, Nayapalli, Bhubaneswar – 751015, Odisha, India</p>
+              <p className="mt-2 text-sm text-slate-600">
+                Plot No. N6/454, 2nd Floor, Saffire Building, IRC Village, Nayapalli, Bhubaneswar –
+                751015, Odisha, India
+              </p>
             </div>
           </div>
         </div>

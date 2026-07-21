@@ -26,8 +26,8 @@ export default function Hero() {
             India’s Complete Digital Commerce & FinTech Platform
           </h1>
           <p className="max-w-2xl text-lg text-white/90">
-            PAYNOVEX empowers businesses with secure payments, recharge, banking APIs, travel booking,
-            and enterprise-grade fintech solutions on one intelligent platform.
+            PAYNOVEX empowers businesses with secure payments, recharge, banking APIs, travel
+            booking, and enterprise-grade fintech solutions on one intelligent platform.
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#082567] shadow-lg shadow-slate-950/10 transition hover:-translate-y-0.5">
@@ -37,7 +37,7 @@ export default function Hero() {
               Request Demo
             </button>
           </div>
-          <div className="grid gap-3 sm:grid-cols-2 text-sm text-white/90">
+          <div className="grid gap-3 text-sm text-white/90 sm:grid-cols-2">
             {[
               "Enterprise Security",
               "Fast API Integrations",
@@ -62,7 +62,9 @@ export default function Hero() {
           </div>
           <div className="absolute -bottom-10 left-6 rounded-3xl bg-white/10 px-5 py-4 text-sm text-white shadow-xl shadow-slate-950/20 backdrop-blur-xl">
             <p className="font-semibold">Trusted by leading merchants across India.</p>
-            <p className="mt-2 text-slate-100/80">Secure settlement, compliance, and seamless checkout.</p>
+            <p className="mt-2 text-slate-100/80">
+              Secure settlement, compliance, and seamless checkout.
+            </p>
           </div>
         </div>
       </div>

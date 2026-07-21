@@ -6,10 +6,13 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-10 rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-2xl shadow-slate-950/20 backdrop-blur-xl lg:grid-cols-[1.3fr_0.7fr]">
           <div className="space-y-4">
-            <p className="text-sm uppercase tracking-[0.24em] text-sky-300/80">Contact Information</p>
+            <p className="text-sm uppercase tracking-[0.24em] text-sky-300/80">
+              Contact Information
+            </p>
             <h2 className="text-3xl font-bold">PAYNOVEX TECHNOLOGIES PRIVATE LIMITED</h2>
             <p className="text-sm text-slate-300">
-              Plot No. N6/454, 2nd Floor, Saffire Building, IRC Village, Nayapalli, Bhubaneswar – 751015, Odisha, India
+              Plot No. N6/454, 2nd Floor, Saffire Building, IRC Village, Nayapalli, Bhubaneswar –
+              751015, Odisha, India
             </p>
           </div>
           <div className="grid gap-4 text-sm text-slate-100 sm:grid-cols-2">

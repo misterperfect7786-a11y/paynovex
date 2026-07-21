@@ -38,8 +38,13 @@ export default function DashboardCards() {
       {cards.map((card) => {
         const Icon = card.icon;
         return (
-          <div key={card.title} className="group overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 p-6 shadow-2xl shadow-slate-950/10 backdrop-blur-xl transition hover:-translate-y-1 hover:border-white/20">
-            <div className={`inline-flex rounded-3xl bg-gradient-to-r ${card.accent} p-3 text-white shadow-lg shadow-slate-950/20`}>
+          <div
+            key={card.title}
+            className="group overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 p-6 shadow-2xl shadow-slate-950/10 backdrop-blur-xl transition hover:-translate-y-1 hover:border-white/20"
+          >
+            <div
+              className={`inline-flex rounded-3xl bg-gradient-to-r ${card.accent} p-3 text-white shadow-lg shadow-slate-950/20`}
+            >
               <Icon className="h-6 w-6" />
             </div>
             <h3 className="mt-6 text-xl font-semibold text-white">{card.title}</h3>

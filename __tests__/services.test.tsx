@@ -10,9 +10,13 @@ describe("Services section", () => {
 
     // Expect known service headings to appear within the services section
     const sectionHeadings = within(servicesSection);
-    expect(sectionHeadings.getByRole("heading", { name: /Recharge Services/i })).toBeInTheDocument();
+    expect(
+      sectionHeadings.getByRole("heading", { name: /Recharge Services/i })
+    ).toBeInTheDocument();
     expect(sectionHeadings.getByRole("heading", { name: /Banking Services/i })).toBeInTheDocument();
-    expect(sectionHeadings.getByRole("heading", { name: /Payment Solutions/i })).toBeInTheDocument();
+    expect(
+      sectionHeadings.getByRole("heading", { name: /Payment Solutions/i })
+    ).toBeInTheDocument();
 
     // basic sanity: there are multiple service headings
     const serviceHeadings = sectionHeadings.getAllByRole("heading");
