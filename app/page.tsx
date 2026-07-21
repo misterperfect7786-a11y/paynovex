@@ -1,39 +1,24 @@
-"use client";
-
-import Head from "next/head";
-import { motion } from "framer-motion";
-import { Shield, Wallet, Database, Lock } from "lucide-react";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Apis from "../components/Apis";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import DashboardCards from "../components/DashboardCards";
+import FeatureGrid from "../components/FeatureGrid";
+import SolutionCards from "../components/SolutionCards";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>PAYNOVEX | Enterprise FinTech Company India</title>
-        <meta
-          name="description"
-          content="PAYNOVEX powers India’s next generation of digital payments with secure APIs, white-label fintech solutions, recharge services, travel booking, and enterprise payment gateway infrastructure."
-        />
-        <meta property="og:title" content="PAYNOVEX | Enterprise FinTech Company India" />
-        <meta
-          property="og:description"
-          content="Secure APIs, white-label fintech, recharge, travel booking, enterprise payment gateway."
-        />
-        <meta property="og:image" content="/paynovex-logo.png" />
-        <meta property="twitter:card" content="summary_large_image" />
-      </Head>
-
       <Header />
 
       <Hero />
       <div className="mx-auto max-w-6xl px-6">
         <DashboardCards />
       </div>
+
+      <FeatureGrid />
 
       <section className="bg-gray-100 py-6">
         <div className="mx-auto grid max-w-6xl gap-4 px-6 text-center text-sm font-medium md:grid-cols-6">
@@ -54,24 +39,7 @@ export default function Home() {
 
       <Services />
       <Apis />
-
-      <section id="solutions" className="bg-white py-20">
-        <div className="mx-auto max-w-6xl px-6">
-          <h2 className="text-3xl font-bold">Bank-Grade Security</h2>
-          <div className="mt-8 grid gap-6 md:grid-cols-3">
-            {[
-              ["SSL Encryption", "End-to-end encryption for data in transit and at rest."],
-              ["PCI Compliance", "Secure transaction processing for enterprise merchants."],
-              ["Fraud Monitoring", "Real-time controls and alert systems for suspicious activity."],
-            ].map(([title, text], i) => (
-              <div key={i} className="rounded-lg border p-6 shadow-sm">
-                <h3 className="font-semibold">{title}</h3>
-                <p className="mt-2 text-sm">{text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <SolutionCards />
 
       <section id="pricing" className="bg-gray-50 py-20">
         <div className="mx-auto max-w-6xl px-6">
@@ -98,16 +66,30 @@ export default function Home() {
 
       <section id="company" className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-6">
-          <h2 className="text-3xl font-bold">About PAYNOVEX</h2>
+          <h2 className="text-3xl font-bold">About PAYNOVEX TECHNOLOGIES PRIVATE LIMITED</h2>
           <p className="mt-4 max-w-3xl text-lg">
-            PAYNOVEX is a modern fintech infrastructure company helping India’s businesses launch
-            seamless payments, recharge, travel, API integrations, and enterprise software with
-            confidence.
+            PAYNOVEX TECHNOLOGIES PRIVATE LIMITED is a modern fintech infrastructure company helping
+            India’s businesses launch seamless payments, recharge, travel, API integrations, and
+            enterprise software with confidence.
           </p>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div>
+              <h3 className="text-xl font-semibold">Legal Entity</h3>
+              <p className="mt-2 text-sm text-slate-600">PAYNOVEX TECHNOLOGIES PRIVATE LIMITED</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Office</h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Plot No. N6/454, 2nd Floor, Saffire Building, IRC Village, Nayapalli, Bhubaneswar –
+                751015, Odisha, India
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <Contact />
+      <Footer />
     </>
   );
 }

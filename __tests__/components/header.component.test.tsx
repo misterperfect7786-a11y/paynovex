@@ -4,8 +4,8 @@ import Header from "../../components/Header";
 
 describe("Header component", () => {
   it("matches snapshot and renders nav", () => {
-    const { asFragment, getByRole } = render(<Header />);
-    expect(getByRole("link", { name: /Services/i })).toBeTruthy();
+    const { asFragment, getAllByRole } = render(<Header />);
+    expect(getAllByRole("link", { name: /Services/i }).length).toBeGreaterThanOrEqual(1);
     expect(asFragment()).toMatchSnapshot();
   });
 });

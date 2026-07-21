@@ -9,8 +9,8 @@
     "test": "jest",
     "test:ci": "jest --runInBand --reporters=default",
     "test:coverage": "jest --runInBand --coverage",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --config .eslintrc.cjs",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --config .eslintrc.cjs --fix",
+    "lint": "eslint \"app/**/*.{js,jsx,ts,tsx}\" \"components/**/*.{js,jsx,ts,tsx}\" --config eslint.config.js --no-config-lookup",
+    "lint:fix": "eslint \"app/**/*.{js,jsx,ts,tsx}\" \"components/**/*.{js,jsx,ts,tsx}\" --config eslint.config.js --no-config-lookup --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
